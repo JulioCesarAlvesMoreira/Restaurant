@@ -1,0 +1,34 @@
+.app__header{
+    background-color: var(--color-black);
+}
+.app__header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+.app__header-img img{
+    width: 80%;
+}
+
+.button {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #14396A !important;
+    font-size: 18px;
+    text-shadow: 1px 3px 2px #50DE71;
+    box-shadow: 4px 3px 4px #BEE2F9;
+    padding: 15px 31px;
+    border-radius: 18px;
+    border: 3px double #2DA329;
+    background: #EE53D4;
+    background: linear-gradient(to top, #EE53D4, #C9CF6E);
+  }
+  .button:hover {
+    color: #14396A !important;
+    background: #1DA5CF;
+    background: linear-gradient(to top, #1DA5CF, #EE402D);
+  }
+  
